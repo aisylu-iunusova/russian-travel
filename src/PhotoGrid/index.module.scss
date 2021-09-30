@@ -1,0 +1,12 @@
+.photoGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+
+  margin: 0 auto 92px;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+}

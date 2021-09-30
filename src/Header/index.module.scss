@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 56px;
+  padding-top: 28px;
+
+  max-width: 1184px;
+
+  .langLink {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0;
+    margin: 0;
+  }
+
+  a {
+    cursor: pointer;
+
+    list-style: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  a + a {
+    margin-left: 18px;
+  }
+}

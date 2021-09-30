@@ -1,0 +1,50 @@
+.lead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 0 102px 92px;
+
+  .title {
+    margin: 0;
+    padding: 0;
+    max-width: 720px;
+
+    text-align: center;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+  }
+
+  .subtitle {
+    max-width: 640px;
+    margin: 32px auto 64px;
+
+    text-align: center;
+
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  figure {
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .caption {
+    align-self: flex-start;
+
+    margin: 0;
+    margin-top: 8px;
+
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.4;
+    text-transform: uppercase;
+  }
+}
