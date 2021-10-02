@@ -1,9 +1,21 @@
+@import "../variables";
+
 .lead {
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  margin: 0 102px 92px;
+  margin: 0 100px 92px;
+
+  @media (max-width: $large-desktop) {
+    margin: 0 0 92px;
+  }
+  @media (max-width: $desktop - 1) {
+  }
+
+  @media (max-width: $tablet - 1) {
+    margin: 0 0 88px;
+  }
 
   .title {
     margin: 0;
@@ -13,22 +25,39 @@
     text-align: center;
     font-weight: 900;
     font-size: 96px;
-    line-height: 100px;
+    line-height: 1;
+
+    @media (max-width: $tablet - 1) {
+      font-size: 40px;
+    }
   }
 
   .subtitle {
     max-width: 640px;
-    margin: 32px auto 64px;
+    margin: 32px auto 54px;
 
     text-align: center;
 
     font-weight: 400;
     font-size: 30px;
-    line-height: 36px;
+    line-height: 1.2;
+
+    @media (max-width: $tablet - 1) {
+      margin: 16px auto 40px;
+      font-size: 16px;
+    }
   }
 
   figure {
+    display: flex;
+    flex-direction: column;
     width: 100%;
+
+    @media (max-width: $desktop - 1) {
+      width: 100vw;
+      margin-left: calc(-50vw + 50%);
+      margin-right: calc(-50vw + 50%);
+    }
   }
 
   img {
@@ -46,5 +75,13 @@
     font-size: 10px;
     line-height: 1.4;
     text-transform: uppercase;
+
+    @media (max-width: $desktop - 1) {
+      margin-left: 24px;
+    }
+
+    @media (max-width: $tablet - 1) {
+      margin-left: 16px;
+    }
   }
 }

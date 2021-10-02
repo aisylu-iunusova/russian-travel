@@ -1,0 +1,95 @@
+@import "../../variables";
+
+.place {
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  grid-gap: 48px 40px;
+  align-items: start;
+  margin-bottom: 80px;
+
+  @media (max-width: $large-desktop - 1) {
+    grid-template-columns: 440px 1fr;
+    grid-gap: 48px 32px;
+  }
+
+  @media (max-width: $desktop - 1) {
+    grid-template-columns: 340px 1fr;
+    grid-gap: 48px 32px;
+  }
+
+  @media (max-width: $tablet - 1) {
+    grid-template-columns: 1fr;
+    grid-gap: 48px 28px;
+  }
+
+  .title {
+    font-size: 72px;
+    line-height: 1.05;
+
+    @media (max-width: $desktop - 1) {
+      font-size: 42px;
+    }
+
+    @media (max-width: $tablet - 1) {
+      font-size: 32px;
+    }
+  }
+
+  .website {
+    display: flex;
+    flex-direction: column;
+
+    align-self: end;
+
+    p {
+      margin: 0px auto 12px 0px;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 1;
+      letter-spacing: 0.2em;
+      color: #aaaaaa;
+      text-transform: uppercase;
+    }
+
+    a {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.2;
+      text-decoration: underline;
+      color: #fff;
+    }
+  }
+
+  img {
+    margin: 0 auto;
+
+    width: 100%;
+    object-fit: cover;
+
+    @media (max-width: $tablet - 1) {
+      width: 100vw;
+      margin-left: calc(-50vw + 50%);
+      margin-right: calc(-50vw + 50%);
+    }
+  }
+
+  .paragraphs {
+    align-self: start;
+
+    p {
+      text-align: left;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.6;
+      color: #fff;
+
+      @media (max-width: $desktop - 1) {
+        font-size: 16px;
+      }
+    }
+
+    p + p {
+      margin-top: 25px;
+    }
+  }
+}

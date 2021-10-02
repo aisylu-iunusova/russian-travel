@@ -1,0 +1,21 @@
+@import "variables";
+
+.page {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto;
+  padding: 0 48px;
+
+  width: 100%;
+  max-width: $large-desktop;
+  min-width: $mobile;
+
+  @media (max-width: $desktop - 1) {
+    padding: 0 24px;
+  }
+
+  @media (max-width: $tablet - 1) {
+    padding: 0 16px;
+  }
+}

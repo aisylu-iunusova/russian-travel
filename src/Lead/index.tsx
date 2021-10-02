@@ -10,10 +10,12 @@ const Lead = () => {
         <p className={s.subtitle}>
           Настоящая страна не в выпусках новостей, а здесь.
         </p>
+        {/* <div className={s.figure}> */}
         <figure>
           <img src={leadImg} alt="" />
           <figcaption className={s.caption}>Ваша полка — верхняя</figcaption>
         </figure>
+        {/* </div> */}
       </div>
     </>
   );

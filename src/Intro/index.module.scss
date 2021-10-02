@@ -1,27 +1,46 @@
+@import "../variables";
+
 .intro {
   display: flex;
   flex-direction: column;
   align-self: flex-start;
 
-  margin: 0 102px 92px;
+  margin: 0 100px 92px;
   max-width: 690px;
 
+  @media (max-width: $large-desktop - 1) {
+    margin: 0 0 92px;
+  }
+
+  @media (max-width: $desktop - 1) {
+    margin: 0 0 88px;
+  }
+
+  @media (max-width: $tablet - 1) {
+    margin: 0 0 64px;
+  }
+
   .title {
-    padding: 0;
     margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
 
     font-weight: 900;
     font-size: 54px;
-    line-height: 58px;
+    line-height: 1;
     color: #fff;
+
+    @media (max-width: $tablet - 1) {
+      font-size: 32px;
+    }
   }
 
   .text {
-    margin: 40px 0px 33px;
+    margin: 0px 0px 33px;
 
     font-weight: 400;
     font-size: 16px;
-    line-height: 26.08px;
+    line-height: 1.7;
   }
 
   .list {
