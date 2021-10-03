@@ -5,19 +5,19 @@
   flex-direction: column;
   align-self: flex-start;
 
-  margin: 0 100px 92px;
+  margin: 92px 100px;
   max-width: 690px;
 
   @media (max-width: $large-desktop - 1) {
-    margin: 0 0 92px;
+    margin: 92px 0;
   }
 
   @media (max-width: $desktop - 1) {
-    margin: 0 0 88px;
+    margin: 88px 0;
   }
 
   @media (max-width: $tablet - 1) {
-    margin: 0 0 64px;
+    margin: 64px 0;
   }
 
   .title {

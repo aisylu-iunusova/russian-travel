@@ -5,7 +5,7 @@ type Props = {
   title: string;
   img: string;
   text1: string;
-  text2: string;
+  text2?: string;
   alt: string;
   link: string;
   linkName: string;

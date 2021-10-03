@@ -5,7 +5,6 @@
   grid-template-columns: 460px 1fr;
   grid-gap: 48px 40px;
   align-items: start;
-  margin-bottom: 80px;
 
   @media (max-width: $large-desktop - 1) {
     grid-template-columns: 440px 1fr;

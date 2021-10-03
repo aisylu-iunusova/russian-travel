@@ -5,16 +5,10 @@
   flex-direction: column;
   align-items: center;
 
-  margin: 0 100px 92px;
+  margin: 0 100px;
 
   @media (max-width: $large-desktop) {
-    margin: 0 0 92px;
-  }
-  @media (max-width: $desktop - 1) {
-  }
-
-  @media (max-width: $tablet - 1) {
-    margin: 0 0 88px;
+    margin: 0;
   }
 
   .title {
@@ -34,13 +28,17 @@
 
   .subtitle {
     max-width: 640px;
-    margin: 32px auto 54px;
+    margin: 32px auto 64px;
 
     text-align: center;
 
     font-weight: 400;
     font-size: 30px;
     line-height: 1.2;
+
+    @media (max-width: $large-desktop - 1) {
+      margin: 32px auto 56px;
+    }
 
     @media (max-width: $tablet - 1) {
       margin: 16px auto 40px;

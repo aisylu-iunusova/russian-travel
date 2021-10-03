@@ -3,10 +3,23 @@
 .places {
   display: flex;
   flex-direction: column;
+  gap: 80px;
 
-  padding: 0 100px;
+  padding: 92px 100px;
 
   @media (max-width: $large-desktop - 1) {
-    padding: 0px;
+    padding: 92px 0;
+  }
+
+  @media (max-width: $desktop - 1) {
+    gap: 72px;
+
+    padding: 88px 0;
+  }
+
+  @media (max-width: $tablet - 1) {
+    gap: 50px;
+
+    padding: 64px 0px;
   }
 }

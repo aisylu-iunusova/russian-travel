@@ -12,6 +12,14 @@
     margin-right: calc(-50vw + 50%);
   }
 
+  @media (max-width: $desktop - 1) {
+    margin-bottom: 88px;
+  }
+
+  @media (max-width: $tablet - 1) {
+    margin-bottom: 64px;
+  }
+
   img {
     position: relative;
     width: 100%;
