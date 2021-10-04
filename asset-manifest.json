@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/russian-travel/static/css/main.4dd2526c.chunk.css",
+    "main.js": "/russian-travel/static/js/main.78ba40a3.chunk.js",
+    "main.js.map": "/russian-travel/static/js/main.78ba40a3.chunk.js.map",
+    "runtime-main.js": "/russian-travel/static/js/runtime-main.73bd0c57.js",
+    "runtime-main.js.map": "/russian-travel/static/js/runtime-main.73bd0c57.js.map",
+    "static/js/2.63e0a063.chunk.js": "/russian-travel/static/js/2.63e0a063.chunk.js",
+    "static/js/2.63e0a063.chunk.js.map": "/russian-travel/static/js/2.63e0a063.chunk.js.map",
+    "index.html": "/russian-travel/index.html",
+    "static/css/main.4dd2526c.chunk.css.map": "/russian-travel/static/css/main.4dd2526c.chunk.css.map",
+    "static/js/2.63e0a063.chunk.js.LICENSE.txt": "/russian-travel/static/js/2.63e0a063.chunk.js.LICENSE.txt",
+    "static/media/altai.305a9998.png": "/russian-travel/static/media/altai.305a9998.png",
+    "static/media/baikal.99c62b31.png": "/russian-travel/static/media/baikal.99c62b31.png",
+    "static/media/cover.c1c70bd0.png": "/russian-travel/static/media/cover.c1c70bd0.png",
+    "static/media/item1.84805501.png": "/russian-travel/static/media/item1.84805501.png",
+    "static/media/item10.d6825bdc.png": "/russian-travel/static/media/item10.d6825bdc.png",
+    "static/media/item11.c0231736.png": "/russian-travel/static/media/item11.c0231736.png",
+    "static/media/item12.94fcff5d.png": "/russian-travel/static/media/item12.94fcff5d.png",
+    "static/media/item2.e555b459.png": "/russian-travel/static/media/item2.e555b459.png",
+    "static/media/item3.c616fac9.png": "/russian-travel/static/media/item3.c616fac9.png",
+    "static/media/item4.e7133c7c.png": "/russian-travel/static/media/item4.e7133c7c.png",
+    "static/media/item5.d7862c8f.png": "/russian-travel/static/media/item5.d7862c8f.png",
+    "static/media/item6.297ce518.png": "/russian-travel/static/media/item6.297ce518.png",
+    "static/media/item7.0fe3a8bd.png": "/russian-travel/static/media/item7.0fe3a8bd.png",
+    "static/media/item8.357b869d.png": "/russian-travel/static/media/item8.357b869d.png",
+    "static/media/item9.2cdff892.png": "/russian-travel/static/media/item9.2cdff892.png",
+    "static/media/kareliya.3b2a8b52.png": "/russian-travel/static/media/kareliya.3b2a8b52.png",
+    "static/media/kolskiy.2b446f21.png": "/russian-travel/static/media/kolskiy.2b446f21.png",
+    "static/media/kosa.604395bd.png": "/russian-travel/static/media/kosa.604395bd.png",
+    "static/media/lead.99be78c6.png": "/russian-travel/static/media/lead.99be78c6.png",
+    "static/media/logo.367364f5.svg": "/russian-travel/static/media/logo.367364f5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73bd0c57.js",
+    "static/js/2.63e0a063.chunk.js",
+    "static/css/main.4dd2526c.chunk.css",
+    "static/js/main.78ba40a3.chunk.js"
+  ]
+}
